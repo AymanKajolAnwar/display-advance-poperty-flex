@@ -1,0 +1,186 @@
+/* defolt css start */
+*{
+    margin: 0;
+    padding: 0;
+}
+/* defolt css end */
+/* common css start */
+.container{
+    max-width: 1320px;
+    margin: auto;
+}
+.header-container{
+    max-width: 800px;
+    margin: auto;
+}
+img{
+    max-width: 100%;
+}
+/* common css end */
+/* header start */
+header{
+    background-color: #000;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0;
+}
+.header-left{
+    width: 100px;
+}
+.header-right ul{
+    list-style: none;
+    display: flex;
+}
+.header-right ul li a{
+    color: #fff;
+    text-decoration: none;
+    padding: 20px 15px;
+    display: inline-block;
+    position: relative;
+}
+.header-right ul li a::before{
+    content: "";
+    height: 1.5px;
+    width: 80%;
+    background: #fff;
+    position: absolute;
+    left: 10%;
+    bottom: 17%;
+}
+/* header end */
+/* slider section start */
+.slider{
+    background: #fff;
+}
+.bannar{
+    margin-top: 55px;
+    margin-bottom: 30px;
+    height: 650px;
+    display: flex;
+    justify-content: space-around;
+}
+.bannar-left{
+    width: 73%;
+    margin-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: flex-start;
+}
+.bannar-right{
+    width: 22%;
+    background: #D2D2D2;
+    border-left: 1.5px solid red;
+    padding: 20px;
+    box-sizing: border-box;
+}
+.bannar-1,.bannar-2,.bannar-3{
+    width: 31.5%;
+    height: 200px;
+    border: 1px solid green;
+    margin-bottom: 25px;
+}
+.bannar-1 span,.bannar-2 span,.bannar-3 span{
+    display: inline-block;
+    color: #fff;
+    background-color: red;
+    padding: 10px 3px;
+}
+.bannar-4,.bannar-5,.bannar-6{
+    width: 26.5%;
+    height: 150px;
+    border: 1px solid green;
+    margin-bottom: 25px;
+    box-sizing: border-box;
+    padding: 18px;
+}
+.bannar-7,.bannar-8,.bannar-9{
+    width: 31.5%;
+    height: 160px;
+    border: 1px solid green;
+    margin-bottom: 25px;
+}
+.bannar-7 p,.bannar-8 p,.bannar-9 p{
+    color: #fff;
+    background: red;
+    padding: 10px 3px;
+    border: 1px solid green;
+}
+.bannar-1{
+    display: flex;
+    align-items: flex-start;
+}
+.bannar-2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.bannar-3{
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+}
+.bannar-5{
+    flex-grow: 2;
+    margin: 0 25px;
+}
+.bannar-7{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-evenly;
+    align-content: space-around;
+    padding: 20px;
+    box-sizing: border-box;
+}
+.bannar-8{
+    display: flex;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    padding: 18px;
+    box-sizing: border-box;
+}
+.bannar-9{
+    display: flex;
+    align-items: flex-start;
+    padding: 20px;
+    box-sizing: border-box;
+    justify-content: space-around
+}
+.p-1{
+    align-self: center;
+
+}
+.p-2{
+    align-self: flex-end;
+}
+/* slider section end */
+/* footer section start */
+footer{
+    background-color: #000;
+}
+footer ul{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+footer ul li{}
+footer ul li a{
+    color: #fff;
+    text-decoration: none;
+    padding: 20px 15px;
+    display: inline-block;
+    position: relative;
+}
+footer ul li a::before{
+    content: "";
+    height: 1.5px;
+    width: 80%;
+    background: #fff;
+    position: absolute;
+    left: 10%;
+    bottom: 17%;
+}
+/* footer section end */
